@@ -7,10 +7,10 @@ namespace MicroRabbitMQ.Domain.Core.Bus
     {
         Task SenderCommand<T>(T command) where T : Command;
 
-        void Publish<T>(T @event) where T : Event;
+        Task Publish<T>(T @event) where T : Event;
 
-        void Subscribe<T, TH>()
-           where T : Event
-           where TH : IEventHandler<T>;
+        Task Subscribe<T, TH>()
+            where T : Event
+            where TH : IEventHandler<T>;
     }
 }

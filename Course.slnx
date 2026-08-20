@@ -2,7 +2,9 @@
   <Folder Name="/Domain/">
     <Project Path="Domain/MicroRabbitMQ.Domain.Core/MicroRabbitMQ.Domain.Core.csproj" Id="d03c847b-4e81-409b-9d68-45b7000506e0" />
   </Folder>
-  <Folder Name="/Infra.bus/" />
+  <Folder Name="/Infra.bus/">
+    <Project Path="MicroRabbit.Infra.Bus/MicroRabbit.Infra.Bus.csproj" Id="dc458137-85d1-44ac-b3db-c77d098629c8" />
+  </Folder>
   <Folder Name="/Infra.IoC/" />
   <Folder Name="/Microservices/" />
   <Folder Name="/Presentation/" />
