@@ -10,17 +10,9 @@
   </Folder>
   <Folder Name="/Microservices/" />
   <Folder Name="/Microservices/Banking/" />
-  <Folder Name="/Microservices/Banking/Api/">
-    <Project Path="Microservices/Banking/MicroRabbit.Banking.Api/MicroRabbit.Banking.Api.csproj" Id="0b563f84-4672-4c70-9b95-21488f976e81" />
-  </Folder>
-  <Folder Name="/Microservices/Banking/Application/">
-    <Project Path="Microservices/Banking/Application/MicroRabbit.Banking.Application/MicroRabbit.Banking.Application.csproj" Id="985dbbb3-9b5a-4615-88ed-c19021ae3fa0" />
-  </Folder>
-  <Folder Name="/Microservices/Banking/Data/">
-    <Project Path="Microservices/Banking/Data/MicroRabbit.Banking.Data/MicroRabbit.Banking.Data.csproj" Id="03b6622c-2390-4750-999c-dc821413e495" />
-  </Folder>
-  <Folder Name="/Microservices/Banking/Domain/">
-    <Project Path="Microservices/Banking/Domain/MicroRabbit.Banking.Domain/MicroRabbit.Banking.Domain.csproj" Id="c85b8d18-e567-4524-8bde-f5c29ba1d420" />
-  </Folder>
+  <Folder Name="/Microservices/Banking/Api/" />
+  <Folder Name="/Microservices/Banking/Application/" />
+  <Folder Name="/Microservices/Banking/Data/" />
+  <Folder Name="/Microservices/Banking/Domain/" />
   <Folder Name="/Presentation/" />
 </Solution>
